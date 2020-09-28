@@ -21,22 +21,27 @@
 
 ## Tarefa: Instalação do JDK
 
+----------
 ### **1. Resultado Esperado**
 
 Ter o JDK instalado e com as variáveis de ambiente configuradas.
 
+----------
 ### **2. Responsabilidades**
 
 Programador
 
+----------
 ### **3. Material Necessário**
 
 - Notebook
 - Conexão com a internet
 - Acesso administrador no sistema operacional
 
+----------
 ### **4. Observações / Informações Adicionais** 
 
+----------
 ### **5. Descrição da Atividade**
 
 **Passo 1:**
