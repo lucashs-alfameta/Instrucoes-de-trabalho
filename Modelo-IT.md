@@ -21,7 +21,6 @@
 
 ## Tarefa: Instalação do JDK
 
-----------
 ### **1. Resultado Esperado**
 
 Ter o JDK instalado e com as variáveis de ambiente configuradas.
