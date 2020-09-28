@@ -40,7 +40,36 @@ Programador
 ### **5. Descrição da Atividade**
 
 **Passo 1:**
-Acessar a tela de lançamentos do sistema
+
+Anexar imagens
 
 ![Tela de Lançamento](imagens/frame.png)
 
+**Passo 2**
+
+Adicionar trecho de código
+
+```dart
+void describe() {
+    print('Spacecraft: $name');
+    if (launchDate != null) {
+      int years =
+          DateTime.now().difference(launchDate).inDays ~/
+              365;
+      print('Launched: $launchYear ($years years ago)');
+    } else {
+      print('Unlaunched');
+    }
+  }
+```
+
+**Passo 3**
+
+Fazer observações
+
+> Você pode também fazer citações ou colocar essa formatação como uma observação
+> > Também é possível fazer uma citação dentro de uma citação
+
+**Passo 4**
+
+É possivel complementar a formatação com elementos HTML como por exemplo para indicar atalhos <kbd>Alt</kbd> + <kbd>F4</kbd>
