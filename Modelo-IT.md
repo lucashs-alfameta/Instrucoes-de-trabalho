@@ -1,6 +1,6 @@
 <table border="1">
     <tr>
-        <th><img width="50" src="imagens/path41.png"></th>
+        <th><img width="75" src="imagens/path41.png"></th>
         <th colspan=3>INSTRUÇÃO DE TRABALHO</th>
     </tr>
     <tr>
