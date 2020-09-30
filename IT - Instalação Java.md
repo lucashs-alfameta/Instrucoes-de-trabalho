@@ -43,38 +43,14 @@ Programador
 ----------
 ### **5. Descrição da Atividade**
 
-**Passo 1:**
+**Passo 1: Download**
 
-Faça o download dos binários do openJDK 15. [Link para download](https://jdk.java.net/15/).
-
+Faça o download do instalador do openJDK selecionando a versão *OpenJDK 8 (LTS)* e JVM *HotSpot*. [Link para download](https://adoptopenjdk.net/).
 
 ![Página de download](imagens/openJDK.png)
 
-**Passo 2**
+**Passo 2: Instalação**
 
-Adicionar trecho de código
+Execute a instalação e na tela de customização marque para configurar a variável JAVA_HOME:
 
-```dart
-void describe() {
-    print('Spacecraft: $name');
-    if (launchDate != null) {
-      int years =
-          DateTime.now().difference(launchDate).inDays ~/
-              365;
-      print('Launched: $launchYear ($years years ago)');
-    } else {
-      print('Unlaunched');
-    }
-  }
-```
-
-**Passo 3**
-
-Fazer observações
-
-> Você pode também fazer citações ou colocar essa formatação como uma observação
-> > Também é possível fazer uma citação dentro de uma citação
-
-**Passo 4**
-
-É possivel complementar a formatação com elementos HTML como por exemplo para indicar atalhos <kbd>Alt</kbd> + <kbd>F4</kbd>
+![Organização da pasta](imagens/java-set-variable.png)
