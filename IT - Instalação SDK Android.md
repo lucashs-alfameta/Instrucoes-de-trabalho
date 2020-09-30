@@ -71,12 +71,11 @@ Faça a instalação dos pacotes utilizando os comandos abaixo com o número da 
 
 **Passo 4: Variáveis**
 
-Configure as variáveis de ambiente para que apontem ao SDK.
-Vá para **Painel de controle** > **Sistema** > **Configurações avançadas do sistema**
+Para configurar as variáveis do sistema, vá para **Painel de controle** > **Sistema** > **Configurações avançadas do sistema** > **Avançado** > **Variáveis de Ambiente...**
 
 ![Variáveis de ambiente](imagens/variaveis-ambiente-windows.png)
 
-Sob **Variáveis de usuário**, clique em **Novo**
+Sob a seção **Variáveis de usuário**, clique em **Novo**
 
 No nome da variável coloque ANDROID_SDK_ROOT.
 

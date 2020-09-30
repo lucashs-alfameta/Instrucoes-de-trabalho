@@ -68,14 +68,13 @@ Atualize os pacotes para que sejam compatíveis com a configuração web utiliza
 
 **Passo 4: Variáveis**
 
-Configure as variáveis de ambiente para que apontem ao SDK.
-Vá para **Painel de controle** > **Sistema** > **Configurações avançadas do sistema**
+Para configurar as variáveis do sistema, vá para **Painel de controle** > **Sistema** > **Configurações avançadas do sistema** > **Avançado** > **Variáveis de Ambiente...**
 
 ![Variáveis de ambiente](imagens/variaveis-ambiente-windows.png)
 
-Sob **Variáveis do sistema**, selecione ***Path***, clique em ***Editar*** e então em ***Procurar***.
+Sob a seção **Variáveis do sistema**, selecione ***Path***, clique em ***Editar*** e então em ***Procurar***.
 
-Navegue até a pasta onde foi descompactado o Flutter, selecione a pasta ***bin*** e dê ***Ok***.
+Navegue até a pasta onde foi descompactado o Flutter, selecione a pasta ***bin*** e dê ***Ok*** em todas as janelas.
 
 **Passo 5: Plugins**
 

@@ -44,35 +44,20 @@ Programador
 ----------
 ### **5. Descrição da Atividade**
 
-**Passo 1:**
+**Passo 1: Download**
 
 Faça o download da versão mais recente do Gradle. [Link para download](https://gradle.org/install/#manually).
 
-
-**Passo 2**
+**Passo 2: Extração**
 
 Crie uma pasta chamada **Gradle** na raiz do disco local. Extraia o conteudo da pasta ***gradle-X.X.X*** para esta pasta recém criada.
 
-**Passo 3**
+**Passo 3: Variáveis**
 
-Configure as variáveis de ambiente para que apontem ao SDK.
-Vá para **Painel de controle** > **Sistema** > **Configurações avançadas do sistema**
-
-![Variáveis de ambiente](imagens/variaveis-ambiente-windows.png)
-
-Sob **Variáveis do sistema**, selecione ***Path***, clique em ***Editar*** e então em ***Procurar***.
-
-Navegue até a pasta do Gradle, selecione a pasta ***bin*** e dê ***Ok***.
-
-**Passo 4**
-
-Configure as variáveis de ambiente para que apontem ao SDK.
-Vá para **Painel de controle** > **Sistema** > **Configurações avançadas do sistema**
+Para configurar as variáveis do sistema, vá para **Painel de controle** > **Sistema** > **Configurações avançadas do sistema** > **Avançado** > **Variáveis de Ambiente...**
 
 ![Variáveis de ambiente](imagens/variaveis-ambiente-windows.png)
 
-Sob **Variáveis de usuário**, clique em **Novo**
+Sob a seção **Variáveis do sistema**, selecione ***Path***, clique em ***Editar*** e então em ***Procurar***.
 
-No nome da variável coloque ANDROID_SDK_ROOT.
-
-E no valor coloque o caminho para o diretório do android `C:\Android`.
+Navegue até a pasta do Gradle, selecione a pasta ***bin*** e dê ***Ok*** em todas as janelas.
