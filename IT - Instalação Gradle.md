@@ -59,8 +59,7 @@ Para configurar as variáveis do sistema, vá para **Painel de controle** > **Si
 
 ![Variáveis de ambiente](imagens/variaveis-ambiente-windows.png)
 
-Sob a seção **Variáveis do sistema**, selecione ***Path***, clique em ***Editar*** e então em ***Procurar***.
-
+Sob a seção **Variáveis do sistema**, selecione ***Path***, clique em ***Editar*** e então em ***Procurar***.<br>
 Navegue até a pasta do Gradle, selecione a pasta ***bin*** e dê ***Ok*** em todas as janelas.
 
 ----------
@@ -70,8 +69,8 @@ Navegue até a pasta do Gradle, selecione a pasta ***bin*** e dê ***Ok*** em to
         <th>Versão</th>
         <th>Data</th>
         <th>Alteração</th>
-        <th>Responsável</th>
-        <th>Revisor</th>
+        <th>Edição</th>
+        <th>Revisão</th>
         <th>Aprovação</th>
     </tr>
     <tr style="text-align: center;">

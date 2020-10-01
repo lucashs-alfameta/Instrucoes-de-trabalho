@@ -62,8 +62,8 @@ Execute a instalação e na tela de customização marque para configurar a vari
         <th>Versão</th>
         <th>Data</th>
         <th>Alteração</th>
-        <th>Responsável</th>
-        <th>Revisor</th>
+        <th>Edição</th>
+        <th>Revisão</th>
         <th>Aprovação</th>
     </tr>
     <tr style="text-align: center;">

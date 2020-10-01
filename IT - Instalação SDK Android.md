@@ -94,8 +94,8 @@ Navegue até a pasta `%USERPROFILE%\.android` e crie um arquivo vazio nomeado `r
         <th>Versão</th>
         <th>Data</th>
         <th>Alteração</th>
-        <th>Responsável</th>
-        <th>Revisor</th>
+        <th>Edição</th>
+        <th>Revisão</th>
         <th>Aprovação</th>
     </tr>
     <tr style="text-align: center;">

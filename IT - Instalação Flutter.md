@@ -59,26 +59,21 @@ Para configurar as variáveis do sistema, vá para **Painel de controle** > **Si
 
 ![Variáveis de ambiente](imagens/variaveis-ambiente-windows.png)
 
-Sob a seção **Variáveis do sistema**, selecione ***Path***, clique em ***Editar*** e então em ***Procurar***.
-
+Sob a seção **Variáveis do sistema**, selecione ***Path***, clique em ***Editar*** e então em ***Procurar***.<br>
 Navegue até a pasta onde foi descompactado o Flutter, selecione a pasta ***bin*** e dê ***Ok*** em todas as janelas.
 
 #### **Passo 4: Configurar**
 
-Utilizando o ***PowerShell*** ou ***CMD*** aceite as licenças do SDK, para isso entre o comando:
-
+Utilizando o ***PowerShell*** ou ***CMD*** aceite as licenças do SDK, para isso entre o comando:<br>
 `flutter doctor --android-licenses`
 
-Desative a coleta de estatísticas:
-
+Desative a coleta de estatísticas:<br>
 `flutter config --no-analytics`
 
-Ative o suporte web com o comando:
-
+Ative o suporte web com o comando:<br>
 `flutter config --enable-web`
 
-Atualize os pacotes para que sejam compatíveis com a configuração web utilizando:
-
+Atualize os pacotes para que sejam compatíveis com a configuração web utilizando:<br>
 `flutter update-packages`
 
 #### **Passo 5: Plugins**
@@ -115,8 +110,8 @@ Para o Visual Studio Code:
         <th>Versão</th>
         <th>Data</th>
         <th>Alteração</th>
-        <th>Responsável</th>
-        <th>Revisor</th>
+        <th>Edição</th>
+        <th>Revisão</th>
         <th>Aprovação</th>
     </tr>
     <tr style="text-align: center;">
