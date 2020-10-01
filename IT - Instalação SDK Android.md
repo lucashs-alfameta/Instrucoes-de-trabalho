@@ -77,14 +77,33 @@ Para configurar as variáveis do sistema, vá para **Painel de controle** > **Si
 
 Sob a seção **Variáveis de usuário**, clique em **Novo**
 
-No nome da variável coloque ANDROID_SDK_ROOT.
+No nome da variável coloque ANDROID_SDK_ROOT.<br>
+E no valor coloque o caminho para o diretório das ferramentas `C:\Android\tools`.
 
-E no valor coloque o caminho para o diretório do android `C:\Android\tools`.
-
-Crie uma nova variável com nome ANDROID_HOME.
-
+Crie uma nova variável com nome ANDROID_HOME.<br>
 E no valor coloque o caminho para o diretório do android `C:\Android`.
 
 #### **Passo 5: CFG**
 
 Navegue até a pasta `%USERPROFILE%\.android` e crie um arquivo vazio nomeado `repositories.cfg`
+
+----------
+### Histórico de Revisões
+<table border="1">
+    <tr>
+        <th>Versão</th>
+        <th>Data</th>
+        <th>Alteração</th>
+        <th>Responsável</th>
+        <th>Revisor</th>
+        <th>Aprovação</th>
+    </tr>
+    <tr style="text-align: center;">
+        <td>1.0</td>
+        <td>01/10/2020</td>
+        <td>Versão Inicial</td>
+        <td>Lucas</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+</table>

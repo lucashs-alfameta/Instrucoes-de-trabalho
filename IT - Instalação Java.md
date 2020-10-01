@@ -54,3 +54,24 @@ Faça o download do instalador do openJDK selecionando a versão *OpenJDK 8 (LTS
 Execute a instalação e na tela de customização marque para configurar a variável JAVA_HOME:
 
 ![Organização da pasta](imagens/java-set-variable.png)
+
+----------
+### Histórico de Revisões
+<table border="1">
+    <tr>
+        <th>Versão</th>
+        <th>Data</th>
+        <th>Alteração</th>
+        <th>Responsável</th>
+        <th>Revisor</th>
+        <th>Aprovação</th>
+    </tr>
+    <tr style="text-align: center;">
+        <td>1.0</td>
+        <td>01/10/2020</td>
+        <td>Versão Inicial</td>
+        <td>Lucas</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+</table>

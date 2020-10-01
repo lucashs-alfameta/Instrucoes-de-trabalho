@@ -107,3 +107,24 @@ Para o Visual Studio Code:
 5. Abra a Command Palette (**View > Command Palette**)
 6. Digite doctor e selecione ***Flutter: Run Flutter Doctor***
 7. Verifique o resultado.
+
+----------
+### Histórico de Revisões
+<table border="1">
+    <tr>
+        <th>Versão</th>
+        <th>Data</th>
+        <th>Alteração</th>
+        <th>Responsável</th>
+        <th>Revisor</th>
+        <th>Aprovação</th>
+    </tr>
+    <tr style="text-align: center;">
+        <td>1.0</td>
+        <td>01/10/2020</td>
+        <td>Versão Inicial</td>
+        <td>Lucas</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+</table>
