@@ -44,32 +44,32 @@ Programador
 ----------
 ### **5. Descrição da Atividade**
 
-**Passo 1: Download**
+#### **Passo 1: Download**
 
 Faça o download do pacote de ferramentas de linha de comando do android. [Link para download](https://developer.android.com/studio#command-tools).
 
 ![Página de download](imagens/command-line-tools.png)
 
-**Passo 2: Extração**
+#### **Passo 2: Extração**
 
 Crie uma pasta chamada **Android** na raiz do disco local e crie outra pasta chamada **cmdline-tools** dentro dela, então faça a extração dos arquivos dentro desta.
 
-**Passo 3: Instalação**
+#### **Passo 3: Instalação**
 
 Abra o ***PowerShell*** na pasta `C:\Android\cmdline-tools\tools\bin`.
 
-Entre o comando `.\sdkmanager.bat --licenses` e aceite as licensas do SDK.
+Entre o comando `.\sdkmanager.bat --licenses` e aceite as licenças do SDK.
 
 Utilizando o comando `.\sdkmanager.bat --list` verifique qual a última versão dos pacotes ***Platform*** e ***Build-Tools***.
 
-Faça a instalação dos pacotes utilizando os comandos abaixo com o número da última versão.
+Faça a instalação dos pacotes utilizando os comandos abaixo com os números das últimas versões.
 ```
 .\sdkmanager.bat platform-tools
 .\sdkmanager.bat emulator
 .\sdkmanager.bat "platforms;android-30" "build-tools;30.0.2"
 ```
 
-**Passo 4: Variáveis**
+#### **Passo 4: Variáveis**
 
 Para configurar as variáveis do sistema, vá para **Painel de controle** > **Sistema** > **Configurações avançadas do sistema** > **Avançado** > **Variáveis de Ambiente...**
 
@@ -85,6 +85,6 @@ Crie uma nova variável com nome ANDROID_HOME.
 
 E no valor coloque o caminho para o diretório do android `C:\Android`.
 
-**Passo 5: CFG**
+#### **Passo 5: CFG**
 
 Navegue até a pasta `%USERPROFILE%\.android` e crie um arquivo vazio nomeado `repositories.cfg`

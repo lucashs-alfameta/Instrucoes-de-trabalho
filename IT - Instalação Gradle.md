@@ -44,15 +44,15 @@ Programador
 ----------
 ### **5. Descrição da Atividade**
 
-**Passo 1: Download**
+#### **Passo 1: Download**
 
 Faça o download da versão mais recente do Gradle. [Link para download](https://gradle.org/install/#manually).
 
-**Passo 2: Extração**
+#### **Passo 2: Extração**
 
 Crie uma pasta chamada **Gradle** na raiz do disco local. Extraia o conteudo da pasta ***gradle-X.X.X*** para esta pasta recém criada.
 
-**Passo 3: Variáveis**
+#### **Passo 3: Variáveis**
 
 Para configurar as variáveis do sistema, vá para **Painel de controle** > **Sistema** > **Configurações avançadas do sistema** > **Avançado** > **Variáveis de Ambiente...**
 

@@ -45,28 +45,15 @@ Programador
 ----------
 ### **5. Descrição da Atividade**
 
-**Passo 1: Download**
+#### **Passo 1: Download**
 
 Faça o download da versão mais recente do Flutter no ***Beta channel***. [Link para download](https://flutter.dev/docs/development/tools/sdk/releases).
 
-
-**Passo 2: Instalar**
+#### **Passo 2: Instalar**
 
 Crie uma pasta chamada **Flutter** na raiz do disco local e faça a extração conteúdo da pasta **flutter** do arquivo compactado para dentro dela.
 
-**Passo 3: Configurar**
-
-Abra o ***PowerShell*** na pasta `C:\Flutter\bin`.
-
-Entre o comando `flutter doctor --android-licenses` e aceite as licensas do SDK.
-
-Utilizando o comando `flutter config --no-analytics` para desativar a coleta de estatísticas.
-
-Ative o suporte web pelo comando `flutter config --enable-web`.
-
-Atualize os pacotes para que sejam compatíveis com a configuração web utilizando `flutter update-packages`.
-
-**Passo 4: Variáveis**
+#### **Passo 3: Variáveis**
 
 Para configurar as variáveis do sistema, vá para **Painel de controle** > **Sistema** > **Configurações avançadas do sistema** > **Avançado** > **Variáveis de Ambiente...**
 
@@ -76,15 +63,35 @@ Sob a seção **Variáveis do sistema**, selecione ***Path***, clique em ***Edit
 
 Navegue até a pasta onde foi descompactado o Flutter, selecione a pasta ***bin*** e dê ***Ok*** em todas as janelas.
 
-**Passo 5: Plugins**
+#### **Passo 4: Configurar**
+
+Utilizando o ***PowerShell*** ou ***CMD*** aceite as licenças do SDK, para isso entre o comando:
+
+`flutter doctor --android-licenses`
+
+Desative a coleta de estatísticas:
+
+`flutter config --no-analytics`
+
+Ative o suporte web com o comando:
+
+`flutter config --enable-web`
+
+Atualize os pacotes para que sejam compatíveis com a configuração web utilizando:
+
+`flutter update-packages`
+
+#### **Passo 5: Plugins**
 
 Com essas configurações é possível utilizar as seguintes ferramentas:
 
 - Android Studio
-- Intellij Community
+- IntelliJ Community
 - Visual Studio Code
 
-Para o Android Studio e Intellij faça:
+Tanto o Android Studio quanto o IntelliJ oferecem um experiência de desenvolvimento mais integrada pois são IDEs completas, já o Visual Studio Code é um editor mais leve que ainda sim suporta a execução de debugação de app com Flutter.
+
+Para o Android Studio e IntelliJ faça:
 
 1. Abra as configurações dos plugins (**Configure > Plugins**)
 2. Selecione o plugin **Flutter** e clique em ***Install***
